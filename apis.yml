@@ -1,8 +1,23 @@
 aid: getglue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getglue.png
 name: GetGlue
-description: GetGlue is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: GetGlue was a social-entertainment "check-in" network where users checked in to TV shows,
+  movies, sports, music, and books to earn stickers and badges and see what friends were watching. Founded
+  by Alex Iskold and backed by Union Square Ventures, it offered a public API and social graph for
+  entertainment. GetGlue was acquired by i.TV in late 2013, rebranded to tvtag, and the service was
+  discontinued. The getglue.com domain is now a parked lander with no live product, developer portal, or
+  API surface. This profile is retained in the API Evangelist network as a historical portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/getglue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: defunct
 tags:
 - Company
+- Social
+- Entertainment
+- Television
+- Check-in
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://getglue.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
